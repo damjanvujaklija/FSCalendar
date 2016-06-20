@@ -136,7 +136,7 @@
     _minimumDate = [NSDate fs_dateWithYear:1970 month:1 day:1];
     _maximumDate = [NSDate fs_dateWithYear:2099 month:12 day:31];
     
-    _timeZone = [NSTimeZone timeZoneWithAbbreviation:@"UTC"];
+    _timeZone = [NSTimeZone localTimeZone];
     _locale = [NSLocale currentLocale];
     _headerHeight     = -1;
     _calendar         = [NSCalendar fs_sharedCalendar];

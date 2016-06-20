@@ -201,7 +201,7 @@
     if (self.isPeriodDay || self.isApproximatedPeriodDay) {
         _backgroundImageView.image = _periodBackgroundImage;
         if (self.isApproximatedPeriodDay) {
-            _backgroundImageView.alpha = 0.6;
+            _backgroundImageView.alpha = 1;
         }
     } else if (self.dateIsPlaceholder) {
         _backgroundImageView.image = _placeholderBackgroundImage;
